@@ -1,3 +1,4 @@
+cat > lectures/01/answer.md <<'EOF'
 # 第1回 宿題
 
 ## 選んだレベル
@@ -15,3 +16,5 @@
 
 ## 使ったモデル
 gemini-3.5-flash-lite, gemini-3.8-flash
+EOF
+git add lectures/01/answer.md && git commit -m "第1回 宿題" && git push -u origin lec01
